@@ -30,6 +30,42 @@
     {"tag":"location",
     "patterns":["What is your location?","Where are you located?","What is your address?"],
     "responses":["We are located at 123 Main St. in Vancouver BC"]
-    }
+    },
+    {
+"tag": "mental_health",
+"patterns": [
+"I'm feeling stressed",
+"I need help with stress",
+"Dealing with mental stress",
+"Feeling overwhelmed",
+"Mental health support",
+"Pandemic stress",
+"Stressed out"
+],
+"responses": [
+"I'm sorry to hear that you're feeling stressed. It's important to take care of your mental health.",
+"Stress is a common experience, especially during these challenging times. It's important to seek support.",
+"Mental health is crucial, and it's understandable to feel stressed. Let's find a way to help you."
+]
+},
+{
+"tag": "connect_doctor",
+"patterns": [
+"I need to talk to a doctor",
+"Connect me to a doctor",
+"Can I chat with a doctor?",
+"Doctor consultation",
+"Mental health professional"
+],
+"responses": [
+"I understand your need to speak with a doctor. Please wait a moment while I connect you.",
+"Connecting you to a doctor now. Please wait a moment.",
+"Connecting you to a doctor now. Please wait a moment."
+]
+}
+
+
+
+
 
 ]}
