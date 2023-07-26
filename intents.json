@@ -9,15 +9,12 @@
     },
     {"tag":"age",
     "patterns":["How old","How old is your platform","what is your age"],
-    "responses":["My owner is 25 years old","25 years young!"]
+    "responses":["I am New born","I am 1 day old","I am 1 day old"]
     },
+
     {"tag":"name",
     "patterns":["What is your name","what should I call you","whats your name"],
     "responses":["You can call me Chatbot.","I'm Chatbot!","I'm Chatbot, your virtual assistant."]
-    },
-    {"tag":"shop",
-    "patterns":["Tell me something about your shop","What is your shop","What do you sell"],
-    "responses":["We sell coffee and tea","Coffee and tea!"]
     },
     {"tag":"thanks",
     "patterns":["Thanks","Thank you","That's helpful"],
@@ -25,7 +22,7 @@
     },
     {"tag":"hours",
     "patterns":["What hours are you open?","What are your hours?","When are you open?"],
-    "responses":["We're open every day 9am-9pm","Our hours are 9am-9pm every day"]
+    "responses":["We're open 24 hours","Our hours are 24 hours in your servvice"]
     },
     {"tag":"location",
     "patterns":["What is your location?","Where are you located?","What is your address?"],
@@ -34,7 +31,7 @@
     {
 "tag": "mental_health",
 "patterns": [
-"I'm feeling stressed",
+"I am feeling stressed",
 "I need help with stress",
 "Dealing with mental stress",
 "Feeling overwhelmed",
@@ -59,7 +56,6 @@
 ],
 "responses": [
 "I understand your need to speak with a doctor. Please wait a moment while I connect you.",
-"Connecting you to a doctor now. Please wait a moment.",
 "Connecting you to a doctor now. Please wait a moment."
 ]
 }
